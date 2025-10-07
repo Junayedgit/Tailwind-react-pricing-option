@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import Link from "./Link";
 import { Menu, X } from "lucide-react";
 
@@ -25,7 +25,7 @@ const NavBar = () => {
         )}
         <ul
           className={`md:hidden absolute ${
-            open ? "top-10" : "-top-48"
+            open ? "top-16" : "-top-48"
           } duration-1000 z-10 bg-white p-4 rounded-lg shadow-lg text-black`}
         >
           {Links}
